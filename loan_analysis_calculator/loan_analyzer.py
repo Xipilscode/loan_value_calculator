@@ -56,8 +56,6 @@ present_value = future_value / (1 + discount_rate/12) * remaining_months
 #  Else, the present value of the loan is less than the loan cost, then print a message that says that the loan is too expensive and not worth the price.
 if present_value > loan.get("loan_price") or present_value ==loan.get("loan_price"):
     print("The loan is worth at least the cost to buy it.\n")
-    
-    
 else :
     print("THe loan is too expensive and not worth the price.\n") 
     
@@ -70,7 +68,7 @@ new_loan = {
 }
 
 # Define a new function that will be used to calculate present value.
-# It include parameters for `future_value`, `remaining_months`, and the `annual_discount_rate`.
+# It includes parameters for `future_value`, `remaining_months`, and the `annual_discount_rate`.
 # The function returns the `present_value` for the loan.
 # Use an `annual_discount_rate` of 0.2 for this new loan calculation.
 future_value = new_loan.get("future_value")
@@ -82,7 +80,7 @@ def calculate_present_value(future_value, remaining_months, annual_discount_rate
     
     return present_value 
 
-# Use the function to calculate the present value of the new loan given below.
+# Call the function to calculate the present value of the new loan given below.
 print("-----------------------------------------")
 print("----------------------------------------- \n")
 print("Loan #2 \n ") 
@@ -135,10 +133,8 @@ header = ["loan_price", "remaining_months", "repayment_interval", "future_value"
 # Set the output file path
 output_path = Path("inexpensive_loans.csv")
 
-# @TODO: Use the csv library and `csv.writer` to write the header row
+# Use the csv library and `csv.writer` to write the header row
 # and each row of `loan.values()` from the `inexpensive_loans` list.
-# YOUR CODE HERE!
-
 # Open the output CSV file path using 'write open'
 with open(output_path, "w") as csvfile:
     # Create a csvwriter
