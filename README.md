@@ -5,16 +5,16 @@ This repository contains a Python program designed to automate various tasks ass
 ## Features
 
 * __Automate Calculations:__
-* Calculate total number of loans and total value of loans.
-* Determine average loan price.
+  - Calculate total number of loans and total value of loans.
+  - Determine average loan price.
 * __Analyze Loan Data:__
-* Calculate the present value of a loan based on future value, remaining months, and a discount rate.
+  - Calculate the present value of a loan based on future value, remaining months, and a discount rate.
 * __Perform Financial Calculations:__
-* Encapsulate present value calculation in a function for reuse.
+  - Encapsulate present value calculation in a function for reuse.
 * __Conditionally Filter Lists of Loans:__
-* Identify and collect loans priced at or below a specified amount.
+  - Identify and collect loans priced at or below a specified amount.
 * __Save the Results:__
-* Output the list of filtered loans to a CSV file.
+  - Output the list of filtered loans to a CSV file.
 
 ## Technologies Used
 This project uses the following technologies:
