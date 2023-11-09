@@ -1,4 +1,4 @@
-# LoanValueCalculator
+# Loan_Value_Calculator
 
 This repository contains a Python program designed to automate various tasks associated with valuing microlending loans. The program encompasses a range of functionalities including calculation automation, loan data analysis, financial calculations, conditional loan filtering, and result saving.
 
